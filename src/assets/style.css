@@ -1,0 +1,298 @@
+/* Navbar */
+#icon-brand {
+    height: 100%;
+  }
+  
+  #navbar-custom {
+    margin: 0 32%;
+    /* margin: 0 auto; */
+    /* font-family: 'Open Sans', sans-serif; */
+  }
+  
+  p{
+    font-family: 'Open Sans', sans-serif;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Philosopher', sans-serif;
+  }
+  /* menu-banner */
+  
+  .banner-menu_bg {
+    background-image: url("banner.png");
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .banner-menu {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .banner-menu:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: "";
+    opacity: 0.6;
+    z-index: -1;
+  }
+  
+  .banner-menu .banner-menu .banner-menu_iner_item {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .banner-menu .banner-menu_iner .banner-menu_iner_item h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 15%;
+    text-transform: capitalize;
+  }
+  
+  #breadcrumb-cust {
+    color: white
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .banner-menu_iner_item {
+      margin-top: 55%;
+    }
+  }
+  
+  /* menu title */
+  
+  #tite-set {
+    text-align: center;
+  }
+  .title-hero{
+    font-size: 53px;
+  font-family: "Cardo", serif;
+  color:#2c3033;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1.273;
+  }
+  .sub-title-hero{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #ff6426;
+    font-style: italic;
+    font-weight: 400;
+    font-family: lora,serif;
+    margin-bottom: 25px;
+  }
+  
+  
+  /*Menu Item*/
+  #cardcontents {
+    text-align: center;
+  }
+  
+  /* Footer */
+  #copy-right {
+    text-align: center;
+  }
+  
+  
+  /* Cart */
+  /* 
+  .qty {
+    float: left;
+  } */
+  
+  .qty {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .qty span {
+    cursor: pointer;
+    width: 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-size: 13px;
+    background-color: #f9f9f9;
+  }
+  
+  .qty span:hover {
+    background-color: #fff;
+  }
+  
+  .qty span.qty-subtract {
+    border-right: 0;
+    border-radius: 25px 0 0 25px;
+  }
+  
+  .qty span.qty-add {
+    border-left: 0;
+    border-radius: 0 25px 25px 0;
+  }
+  
+  .qty input {
+    background-color: #f9f9f9;
+    border: 0;
+    outline: none;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, .1);
+  }
+  
+  .qty input {
+    height: 48px;
+    width: 48px;
+  }
+  
+  #PriceCard {
+    width: 90%;
+    height: 350px;
+  }
+  
+  .table.is-borderless td,th {
+    border: 0;
+  }
+  
+  @media only screen and (max-width: 1260px) {
+    #cart-card {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 1260px) {
+    #PriceCard {
+      height: 100%;
+    }
+  
+    #cart-card {
+      width: 100%;
+    }
+  
+    #carddetails {
+      text-align: center;
+    }
+    
+    #car-column {
+      height: 70%;
+    }
+  
+    #qtybutton {
+      margin-left: 5%;
+    }
+  
+    #img-content {
+      margin-left: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 1260px) {
+    #PriceCard {
+      height: 100%;
+    }
+  } 
+  .card-content {
+    padding: 20px;
+  }
+  
+  .savebtn {
+    margin: 0px 30px;
+    padding: 5px;
+    border: rgba(0, 0, 0, .1) solid;
+    border-radius: 20px;
+    width: 80%;
+    height: 40px;
+  }
+  
+  
+  /* Home */
+  
+  .banner-column{
+    margin-top: 9%;
+    padding-left: 100px;
+    padding-right: 90px;
+  }
+  #home-banner-img{
+    height: 500px;
+    
+  }
+  .home-nav{
+    background-color: #f0eed4;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #home-banner-img{
+      margin-top: 10%;
+      height: 400px;
+    }
+  } 
+  @media screen and (max-width: 829px) {
+    .title-hero{
+      font-size: 33px;
+    color:#2c3033;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.273;
+    }
+    #home-banner-img{
+    
+      margin-top: 50px;
+      height: 300px;
+    }
+    .banner{
+      text-align: center;
+    }
+  } 
+  @media screen and (max-width: 770px) {
+    #home-banner-img{
+      display:none
+    }
+  } 
+  /* Popular Dishes */
+  .main-c{
+    padding-top: 10%;
+  }
+  #item.card{
+  border-bottom-left-radius: 30px;
+  }
+  #card-pro{
+     border-radius: 30px;
+    border-bottom-right-radius:100px; 
+  }
+  /* About Us */
+  .main-a{
+    margin-top:20%;
+  }
+  @media screen and (max-width: 770px) {
+    .main-a{
+      text-align: center;
+    }
+    .main-b{
+      text-align: left;
+    }
+    .about-img{
+      width: 90%;
+    }
+    #aboutus{
+      padding-left:5%;
+      padding-right:5%;
+    }
+  } 
+  
+  
